@@ -2,28 +2,28 @@
 Linear and Logistic Regression on different datasets in R
 
 
-### Linear Regression and Gradient Learning
+## Linear Regression and Gradient Learning
 
 #### Regression model that includes two linear features and one quadratic feature and Gaussian Noise.
-Goal: 
+##### Goal: 
 		1) To develop a gradient descent learning algorithm that will estimate the best parameters theta.
 		2) Find the two best input features for predicting the output mpg using algorithm developed and R's built-in function LM.
 		3) Compare the difference between your full coding and R's built-in function call: lm.
 		4) Detect best features using batch gradient descent algorithm by tuning learning rate.
 		5) Detect best features using batch stochastic descent algorithm by tuning learning rate.
 
-Data: Auto dataset --> ISLR package in R
+###### Data: Auto dataset --> ISLR package in R
 		Gas mileage, horsepower, and other information for 392 vehicles.
 		A data frame with 392 observations on the following 9 variables.
     
     
-### Logistic Regression and Evaluations
+## Logistic Regression and Evaluations
 
-Data: Weekly dataset in ISLR package
+###### Data: Weekly dataset in ISLR package
 		It contains 1,089 weekly returns for 21 years from the beginning of 1990 to the end of 2010.
 		Use its 1990-2008 as a training data and 2009-2010 as a test data.
 		
-Goal:
+##### Goal:
 		1) Given the training data, we have to perform a logistic regression where 
 			the input features are five of Lag variables and Volume, and the binary output is Direction. 
 			Report the confusion matrix and the accuracy on both training and test data given the learned model.
@@ -35,7 +35,7 @@ Goal:
 		4) Draw six Precision-Recall curves for 6 models from the part (c) and (d) with varying thresholds. 
 			Determine the best model in terms of the Area Under Curve (AUC).
 			
-Results:
+###### Results:
 
 	Best Models:
 		In terms of accuracy on the test data, 2nd model, where we are training on Lag2 variable alone, is giving the best result.
