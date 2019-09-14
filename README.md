@@ -44,12 +44,19 @@ Linear and Logistic Regression on different datasets in R
 	which are trained on Lag3 and Lag4 variables respectively, gave the best accuracy and FScore on the training data.
 	
 	AUC Values:
+	
 • Overall Model = 0.554
+
 • Model 1 = 0.536
+
 • Model 2 = 0.535
+
 • Model 3 = 0.507
+
 • Model 4 = 0.510
+
 • Model 5 = 0.521
+
 	Based on the AUC, overall model, which was trained on 6 variables (all Lag and Volume variable), 
 	is the one giving the best result.
   
